@@ -48,7 +48,7 @@ public static int countPaths(int i,int j,int n,int m){
     return vertPlacements+horPlacements;
 
  }
-    */
+  
 
 //4 ways to call n guests
 public static int callguests(int n){
@@ -64,7 +64,10 @@ public static int callguests(int n){
 
     return way1+way2;
 
-}
+}*/
+
+//5. Subsets of a set
+
 
    
   public static void main(String [] args){
@@ -81,8 +84,8 @@ public static int callguests(int n){
     //System.out.println(placeTiles(n, m));
 
     //4.
-    int n=4;
-    System.out.println(callguests(n));
+   // int n=4;
+    //System.out.println(callguests(n));
 
   }
 }
