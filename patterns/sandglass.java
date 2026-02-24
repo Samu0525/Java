@@ -1,4 +1,3 @@
-import java.util.*;
 public class sandglass {
     public static void main(String[] args) {
         int n=4;
@@ -26,4 +25,12 @@ public class sandglass {
             
             
         }
-    }
+}
+
+// -*******
+// --*****
+// ---***
+// ----*
+// ---***
+// --*****
+// -*******
