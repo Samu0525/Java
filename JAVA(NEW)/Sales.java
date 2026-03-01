@@ -1,9 +1,8 @@
-class Sales {
-    // Online Java Compiler
+// Online Java Compiler
 // Use this editor to write, compile and run your Java code online
 
-
-    static class Saless{
+class Main {
+    static class Sales{
         public static int[] buynsell(int[] arr){
             int profit=0;
             int maxprofit=0;
@@ -23,10 +22,29 @@ class Sales {
             }
             return new int[]{bp,sp};
         }
+        
+        public static void movezeros(int[] arr){
+            System.out.println();
+            int i=0;
+            for(int j=0;j<arr.length;j++){
+                if(arr[j]!=0){
+                    arr[i]=arr[j];
+                    i++;
+                }
+                
+            }
+            while(i<arr.length){
+                arr[i]=0;
+                i++;
+               
+            }
+            
+            
+        }
     }
     public static void main(String[] args) {
-        Saless sc=new Saless();
-        int[] arr={7,1,5,3,6,4};
+        Sales sc=new Sales();
+        int[] arr={0,7,1,0,5,3,6,0,4};
         for(int i=0;i<arr.length;i++){
         System.out.print(arr[i]);
         }
@@ -34,7 +52,12 @@ class Sales {
         System.out.println();
         System.out.print(r[0]+",");
         System.out.print(r[1]);
-
+        
+        sc.movezeros(arr);
+        for(int i = 0; i < arr.length; i++) {
+    System.out.print(arr[i] + " ");
+}
+        
+        
     }
 }
-
