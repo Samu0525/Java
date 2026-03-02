@@ -8,9 +8,17 @@ public class palindromearray {
         }
          return true;
     }
+    public static void reversestring(String a){
+        
+        for(int i=a.length()-1;i>=0;i--){
+            System.out.print(a.charAt(i));
+        }
+    }
     public static void main(String[] args){
+        String a="Samu";
         int[] arr={1,2,1,2,1};
-        System.err.println("Is the given array palindrome?"+ispalindromee(arr));
+        System.out.println("Is the given array palindrome?"+ispalindromee(arr));
+        reversestring(a);
 
     }
 }
