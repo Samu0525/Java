@@ -1,3 +1,4 @@
+import java.util.*;
 public class Recursion {
     //print numbers from 1 to n
     public static void printNumbers(int n){
@@ -76,6 +77,24 @@ public class Recursion {
         }
     }
 
+    public static void decending(int n){
+        if(n==0){
+            return ;
+        }
+        System.out.print(n+" ");
+        decending(n-1);
+         System.out.println();
+    }
+    
+    public static void ascending(int nn){
+        if(nn==6){
+            return ;
+        }
+       
+        System.out.print(nn+" ");
+        ascending(nn+1);
+    }
+
 
    public static void main(String[] args){
     /*int n=5;
@@ -106,6 +125,12 @@ public class Recursion {
      int nn=5;
      int ans=calcPowerr(y,nn);
      System.out.println(ans);
+
+   int n=5;
+     decending(n);
+     nn=1;
+    ascending(nn);
+     
 
 
    } 
