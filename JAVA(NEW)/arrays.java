@@ -1,5 +1,8 @@
 import java.util.*;
 public class arrays {
+    public static void roatate(int arr){
+        
+    }
 public static void main(String args[]){
     /*int[] marks =new int[3];
     marks[0]=23;
