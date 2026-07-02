@@ -1,0 +1,29 @@
+public class Merge{
+
+    public static void main(String[] args){
+        int n=A.length();
+        int[] A={2,5,1,7,8};
+        int[] B={8,4,5,2,5};
+        int[] C =new int[n+n];
+        int K=0;
+        int i=0,j=0;
+        while(int i<=n && int j<=n){
+            if(A[i]<B[j]){
+                C[k]=A[i];
+                i++;
+                k++;
+            }else{
+                C[k]=B[j];
+                j++;
+                k++;
+            }
+        }
+        while(i<n){
+            C[k++]=A[i++];
+        }
+         while(j<n){
+            C[k++]=B[j++];
+        }
+
+    }
+}
